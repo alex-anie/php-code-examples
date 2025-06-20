@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    background-color: #33363b;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.info {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.preview {
+    min-height: 200px;
+    border: thin solid #5c5c5c;
+    padding: 30px;
+    text-align: center;
+    background-color: #212327;
+}
+
+.preview .image-wrapper {
+    display: inline-block;
+    text-align: center;
+}
+
+.preview img {
+    display: block;
+    height: 250px;
+    padding: 10px;
+}
+
+.preview a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #bd6070;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.upload-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.upload-box form {
+    width: 300px;
+    height: 200px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.upload-box form .success {
+    color: green;
+    font-size: 1.3em;
+} 
+
+.upload-box form .error {
+    color: red;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+.upload-box form label {
+    margin-top: 1em;
+}
+.upload-box form button {
+    width: 100%;
+    background-color: #212327;
+    color: #fff;
+    height: 15em;
+}
+
+
+
+
