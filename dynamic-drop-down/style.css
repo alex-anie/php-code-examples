@@ -1,0 +1,35 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+select {
+  appearance: none;            /* Remove default arrow (optional) */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  outline: none;
+  width: 250px;
+  cursor: pointer;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+select:hover {
+  border-color: #999;
+}
+
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+option {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+}
